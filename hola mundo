@@ -1,0 +1,16 @@
+// holamundo.cpp : Defines the entry point for the console application.
+//`autor: kevin laverdy
+// fecha: 19/2/14
+
+#include "stdafx.h"
+#include <iostream> 
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	cout << "vivir mi vida\";
+    cout << "vivir mi vida"
+	getch();
+	return 0;
