@@ -1,0 +1,27 @@
+// EL MAYOR ES .cpp : Defines the entry point for the console application.
+// autor:kevin alberto laverdy cholima
+// fecha:18/03/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{ int a,b,c;
+  cout<<"ingese a:";
+  cin>> a;
+  cout<<"ingrese b:";
+  cin>> b;
+  cout<<"ingrese c:";
+  cin>> c;
+  if (a>b)
+	  if (a>c)
+		  cout<<"el mayor es:"<<a;
+	  else
+  ;else    cout<<c;
+      if (b>c)
+		  cout<<b;
+	  else 
+		  cout<<c;
+getch();
+}
