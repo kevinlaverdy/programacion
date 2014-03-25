@@ -1,0 +1,28 @@
+// kevin laverdy
+// 25-03-2014
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main ()
+
+{ 
+	int a,b,r;
+	cout<< "Ingrese a \n";
+	cin>> a;
+	cout<< "Ingrese b\n";
+	cin>> b;
+	if(a%2==0&&b%2==0)
+	{
+		r=a*b;
+	}
+	else
+	{
+		r=a+b;
+	}
+	cout<<"escribir resultado \n";
+	cout<<r;
+	getch();
+}
+
